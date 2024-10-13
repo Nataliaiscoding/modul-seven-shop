@@ -5,7 +5,7 @@ function Clothers({items}) {
     return (
         <div className="products">
             {items.map((element => {
-                const {id, name, searchTerm, price, image} = element;
+                const {id, name, price, image} = element;
 
                 return (
                     <div key={id} className="product-card">
